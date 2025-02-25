@@ -25,7 +25,7 @@ jobs:
           jupyter nbconvert --to notebook --execute distance_classification.ipynb --ExecutePreprocessor.timeout=-1 --ExecutePreprocessor.kernel_name=python3
 
       - name: Upload Notebook as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: executed-notebook
           path: distance_classification.ipynb
