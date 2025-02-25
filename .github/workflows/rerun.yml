@@ -20,11 +20,6 @@ jobs:
           pip install --upgrade pip
           pip install notebook nbconvert pandas scikit-learn matplotlib wandb ipykernel opencv-python
 
-      - name: Login to Wandb
-        run: wandb login --relogin ${{595b611ccec72494e7bca3e7399397cd92a65132}}
-        env:
-          WANDB_API_KEY: ${{595b611ccec72494e7bca3e7399397cd92a65132}}
-
       - name: Execute Jupyter Notebook
         run: |
           jupyter nbconvert --to notebook --execute distance_classification.ipynb --ExecutePreprocessor.timeout=-1 --ExecutePreprocessor.kernel_name=python3
