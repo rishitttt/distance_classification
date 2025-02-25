@@ -17,7 +17,8 @@ Image recognition, medical diagnosis, fraud detection.
 Cross-validation helps a model improve its performance by running it through multiple validation sets, which helps in the reduction of overfitting and also tunes parameters accordingly.
 
 #### 5. Explain variance and bias in terms of KNN.
-- **Bias** is associated with underfitting, which is the result of a large K value. This means that the model does not fit the training data well, resulting in poor performance.
-- **Variance**, on the other hand, is associated with overfitting, which is the result of a small K value. This means that the model fits the training set too closely, making it sensitive to noise and potentially performing poorly on new data.
+Bias is associated with underfitting, which is the result of a large K value. This means that the model does not fit the training data well, resulting in poor performance. Variance, on the other hand, is associated with overfitting, which is the result of a small K value. This means that the model fits the training set too closely, making it sensitive to noise and potentially performing poorly on new data.
 
 ## WandB Screenshots
+![image](https://github.com/user-attachments/assets/7aaa5768-64c4-4841-b6bd-bca4bcd93880)
+![image](https://github.com/user-attachments/assets/ffd6db4f-5000-4ff8-9450-acb7b5d8dab4)
