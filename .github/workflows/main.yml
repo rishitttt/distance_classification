@@ -19,4 +19,4 @@ jobs:
           pip install numpy pandas matplotlib scikit-learn wandb opencv-python
 
       - name: Run Test Script
-        run: python distance_classification.py
+        run: python test_script.py
